@@ -7,6 +7,9 @@ void setup() {
 var x = 200;
 var y = 100;
 
+var pupilSize;
+pupilSize = 20;
+
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   background(255,255,255,200);
@@ -23,7 +26,13 @@ void draw(){
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
+
+  fill(0, 0, 0);
+  ellipse(x - 50, y - 50, pupilSize, pupilSize); // left eyeball
+  ellipse(x + 50, y - 50, pupilSize, pupilSize); // right eyeball
   
+  fill(207, 140, 149); 
+  ellipse (200, 120, 120, 10);
 
 }
 
