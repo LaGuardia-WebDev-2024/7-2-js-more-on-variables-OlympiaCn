@@ -32,7 +32,7 @@ void draw(){
   ellipse(x + 50, y - 50, pupilSize, pupilSize); // right eyeball
   
   fill(207, 140, 149); 
-  ellipse (200, 120, 120, 10);
+  ellipse (x, 120, 120, 10);
 
 }
 
